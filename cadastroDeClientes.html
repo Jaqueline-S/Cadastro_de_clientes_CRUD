@@ -1,0 +1,112 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cadastro de Clientes</title>
+ </head>
+ <body>
+  <h3> Cadastro de Clientes</h3> 
+ <br />
+<fieldset>
+ <b>
+ <legend>Informações do Cliente</legend>
+ </b>
+ <table cellspacing="10">
+   <label for="nome">
+     Nome: <input type="text" id="nome"/>
+     </label>
+   </td>
+  </tr>
+   <tr>
+   <td>
+    Data de Nscimento: <input type="date" id="data"/>
+   </td>  
+  </tr>
+  <tr>
+   <td>
+    <label for="CPF">
+	Informe o CPF: <input type="text" id="CPF"/>
+	</label>
+   </td>
+ </tr>
+  
+  <tr>
+   <td>
+    <label for="rua">
+	Endereço: <input type="text" name="rua">
+	</label>
+   </td>
+   </tr>
+   <td>
+    <label for="numero">
+	Numero: <input type="text" name="numero" size="4">
+	</label>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="bairro">
+	Bairro:  <input type="text" name="bairro">
+	</label>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="estado">
+	Estado: <select name="estado"> 
+    <option value="">Selecione</option>
+    <option value="pr">Paraná (PR)</option> 
+    <option value="rs">Rio Grande do Sul (RS)</option> 
+    <option value="sc">Santa Catarina (SC)</option> 
+   </select>
+   </label>
+   </td>
+   </td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="cidade">
+	Cidade: <input type="text" name="cidade">
+	</label>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="cep">
+	CEP:   <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
+	</label>
+   </td>
+  </tr>
+   <tr>
+   <td>
+    <label for="email">
+	E-mail: <input type="text" name="email">
+	</label>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="pass">
+	Crie uma Senha: <input type="password" name="pass">
+	</label>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="passconfirm">
+	Confirme sua senha: <input type="password" name="passconfirm">
+	</label>
+   </td>
+  </tr>
+ </table>
+</fieldset>
+<br/>
+<input type="submit" value="Confirmar">
+<input type="reset" value="Apagar">
+<input type=button value="Editar"> 
+<input type=button value="Retornar"> 
+
+</form>
+
+ </body>
+</html>
